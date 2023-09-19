@@ -1,15 +1,13 @@
-package com.example.dto;
+package edu.hneu.mjt.Valentyn;
 
 public class BankCard {
     private String number;
     private User user;
 
-
     public BankCard(String number, User user) {
         this.number = number;
         this.user = user;
     }
-
 
     public String getNumber() {
         return number;
@@ -27,3 +25,5 @@ public class BankCard {
         this.user = user;
     }
 }
+
+

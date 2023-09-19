@@ -1,4 +1,4 @@
-package com.example.dto;
+package edu.hneu.mjt.Valentyn;
 import java.time.LocalDate;
 
 public class User {
