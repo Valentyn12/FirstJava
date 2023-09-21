@@ -1,4 +1,4 @@
-package edu.hneu.mjt.Valentyn.Bank;
+package edu.hneu.mjt.Valentyn.bank;
 
 public class Main {
     public static void main(String[] args) {

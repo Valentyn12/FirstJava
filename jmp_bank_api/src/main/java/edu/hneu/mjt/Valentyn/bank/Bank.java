@@ -1,4 +1,4 @@
-package edu.hneu.mjt.Valentyn.Bank;
+package edu.hneu.mjt.Valentyn.bank;
 
 import edu.hneu.mjt.Valentyn.BankCard;
 import edu.hneu.mjt.Valentyn.User;
