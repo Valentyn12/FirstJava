@@ -1,4 +1,4 @@
-package org.example;
+package edu.hneu.mjt.Valentyn.api;
 
 public class Main {
     public static void main(String[] args) {

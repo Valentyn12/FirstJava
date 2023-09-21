@@ -1,4 +1,4 @@
-package org.example;
+package edu.hneu.mjt.Valentyn.Bank;
 
 import edu.hneu.mjt.Valentyn.BankCard;
 import edu.hneu.mjt.Valentyn.User;
