@@ -21,17 +21,17 @@ public class ServiceImplementation implements Service {
     private List<User> users = new ArrayList<>();
 
     @Override
-    public void subscribe(BankCard card) {
-
+    public void subscribe(BankCard bankCard) {
+        subscriptions.put(bankCard.getNumber(), (Flow.Subscription) new Subscription(bankCard.getNumber(), LocalDate.now()));
     }
 
     @Override
     public Optional<Subscription> getSubscriptionByBankCardNumber(String cardNumber) {
-        return Optional.empty();
+        return Optional.ofNullable((Subscription) subscriptions.get(cardNumber));
     }
 
     @Override
     public List<User> getAllUsers() {
-        return null;
+        return users;
     }
 }
