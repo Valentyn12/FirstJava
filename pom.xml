@@ -13,6 +13,7 @@
         <module>jmp_service_api</module>
         <module>jmp_cloud_bank_impl</module>
         <module>jmp_dto</module>
+        <module>MainApp</module>
     </modules>
 
     <properties>
